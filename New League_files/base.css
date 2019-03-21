@@ -1,0 +1,172 @@
+body {
+	font: 11px/15px Verdana,Geneva,sans-serif;
+	margin: 0;
+	color: black;
+	text-align: center;
+}
+#page_wrap {
+	margin: 0 auto;
+	width: 1072px;
+	background: url('/web/20150804095014im_/http://newleague.co/images/NL_home.jpg') no-repeat center 60px fixed;
+}
+
+.nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background: #fff;
+	padding: 0;
+	margin: 0 auto;
+	z-index: 100;
+	-moz-box-shadow: 0 1px 1px #666;
+	-webkit-box-shadow: 0 1px 1px #666;
+	box-shadow: 0 1px 1px #666;
+	list-style: none;
+}
+.nav li {
+	float: left;
+	display: inline;
+	margin: 0 15px;
+}
+
+.nav a, .nav a:link,
+.nav a:visited {
+	text-decoration: none;
+	font-style: normal;
+	color: #666;
+	display: block;
+	height: 60px;
+	font-size: 11px;
+	line-height: 60px;
+	text-align: center;
+}
+
+.nav a:hover,
+.nav a:active {
+	color: #39c;
+}
+
+#navspacing {
+	height: 60px;
+	width: inherit;
+}
+
+.nl-logo {
+	background-image: url('/web/20150804095014im_/http://newleague.co/images/NL_banner.png');
+	background-repeat: no-repeat;
+}
+
+.nav .nl-logo {
+	height: 60px;
+	width: 70px;
+	background-image: url('/web/20150804095014im_/http://newleague.co/images/NL_banner_small.png'); /* to support IE 8 and below */
+}
+
+#content {
+	margin: 0;
+	padding: 0;
+	width: inherit;
+}
+
+.section {
+	padding-top: 60px;
+	background: white;
+}
+
+.image-grid {
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.image-grid div {
+	width: 270px;
+	padding: 30px 10px;
+	vertical-align: middle;
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+}
+
+.image-grid img {
+	max-width: 100%;
+	_width: 100%; /* old IE version hack */
+}
+
+.hscroll_wrap {
+	margin-top: 60px;
+	position: relative;
+}
+
+.hscroll {
+	width: 792px;
+	position: relative;
+}
+
+.arrow {
+	height: 56px;
+	width: 56px;
+	position: absolute;
+	top: 0;
+	cursor: pointer;
+	display: none;
+}
+
+.hscroll_wrap h2 {
+	padding: 15px 0 25px 0;
+	margin: 0;
+	font-size: 24px;
+	color: #333;
+}
+
+.hsec {
+	width: 792px;
+}
+
+.forward {
+	background: transparent url('/web/20150804095014im_/http://newleague.co/images/forward.png') no-repeat top right;
+	right: -84px;
+}
+
+.back {
+	background: transparent url('/web/20150804095014im_/http://newleague.co/images/back.png') no-repeat top left;
+	left: -84px;
+}
+
+.gray-separator {
+	border-top: 1px solid #ccc;
+	background: #eee url('/web/20150804095014im_/http://newleague.co/images/creampaper.png') repeat;
+	width: 100%;
+	height: 40px;
+	position: relative;
+	top: -40px;
+}
+
+a, a:link, a:visited {
+	color: #39c;
+	text-decoration: none;
+	font-style: italic;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+h1{
+	margin: 110px 0 70px 140px;
+	color: #333;
+	font-weight: normal;
+	text-align: left;
+	padding-top: 20px;
+	font-size: 36px;
+}
+
+/*
+     FILE ARCHIVED ON 09:50:14 Aug 04, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:46:22 Aug 11, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
