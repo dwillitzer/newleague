@@ -23903,7 +23903,7 @@ color: #000000; }
 .u-header .u-menu-1 {margin-top: -36px} }
 @media (max-width: 991px){ .u-header .u-image-1 {width: 24px} }
 @media (max-width: 767px){ .u-header .u-image-1 {width: 23px} }
-
+@media (max-width: 575px){ .u-header .u-image-1 {width: 19px} }
  .u-footer .u-sheet-1 {min-height: 133px}
 .u-footer .u-group-1 {min-height: 63px; height: auto; width: 570px; margin: 35px auto}
 .u-footer .u-container-layout-1 {padding-left: 60px; padding-right: 60px}
